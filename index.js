@@ -1,5 +1,5 @@
 const authConfig = {
-  "siteName": NAME, 
+  "siteName": NAME, //VAR CAN BE SET VIA SITE VARIABLE IN WORKER SETTINGS
   "siteIcon": PNG,
   "version": VERSION, //4.28
   "client_id": C_ID,
