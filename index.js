@@ -1,10 +1,10 @@
 const authConfig = {
-  "siteName": "Google Drive Index", 
-  "siteIcon": "https://raw.githubusercontent.com/sawankumar/Google-Drive-Index-III/master/images/favicon.png",
-  "version": "4.28",
-  "client_id": "202264815644.apps.googleusercontent.com",
-  "client_secret": "X4Z3ca8xfWDb1Voo-F9a7ZxJ",
-  "refresh_token": "", // Authorization token
+  "siteName": NAME, 
+  "siteIcon": PNG,
+  "version": VERSION, //4.28
+  "client_id": C_ID,
+  "client_secret": C_SEC,
+  "refresh_token": R_T, // Authorization token
 /**
  * Set up multiple Drives to be displayed; add multiples by format
  * [id]: It can be team folder id, subfolder id, or "root" (representing the root directory of personal disk);
@@ -28,7 +28,7 @@ const authConfig = {
         name: "Personal Drive II",
         user: 'username',
         pass: "password",
-      }  
+    }  
   ],
 
   "files_list_page_size": 500,
